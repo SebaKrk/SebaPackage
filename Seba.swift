@@ -8,11 +8,11 @@
 import SwiftUI
 
 extension View {
-    public static func sebaCenter() -> some View {
+    public func sebaCenter() -> some View {
         HStack {
             Spacer()
             self
-            Spacer
+            Spacer()
         }
     }
 }
