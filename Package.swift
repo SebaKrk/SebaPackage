@@ -5,8 +5,8 @@ import PackageDescription
 
 let package = Package(
     name: "SebaPackage",
+    platforms: [.iOS(.v16)],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "SebaPackage",
             targets: ["SebaPackage"]),
